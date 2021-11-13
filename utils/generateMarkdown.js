@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Based off of the license the user selects, returns the badge associated 
 function renderLicenseBadge(license) {
     let licenseBadges = {
 
@@ -23,8 +22,7 @@ function renderLicenseBadge(license) {
 }
 
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Based off of the license the user selects, returns the link associated 
 function renderLicenseLink(license) {
     let licenseLink = {
         'APACHE 2.0': `https://opensource.org/licenses/Apache-2.0`,
@@ -46,13 +44,12 @@ function renderLicenseLink(license) {
     return licenseLink[license]
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Combines the license user chooses and link associated to create a cohesive section
 function renderLicenseSection(license) {
     return `Licensed with ${license}. For more information visit ${renderLicenseLink(license)}`
 }
 
-// TODO: Create a function to generate markdown for README
+// Begins generation of README based off of user input data and makes it pretty
 function generateMarkdown(data) {
     return `# ${data.title}
   
