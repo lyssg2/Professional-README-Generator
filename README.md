@@ -2,6 +2,17 @@
 
 The purpose of this project is to help the fellow developer quickly and easily generate a README file using command-line application. 
 
+## Table of Contents
+  
+1. [Description](#description)
+2. [Getting Started](#Getting Started)
+3. [Execution](#execution)
+4. [Screenshot](#screenshot)
+5. [Video](#video)
+6. [Help](#help)
+7. [Author](#Author)
+8. [Version History](#version history)
+
 ## Description
 
 Utilizing Inquirer to interact with the user, when a developer needs to generate a professional README, they can do so using this application through the terminalto dynamically generate one seamlessly. The application will lead the user through a series of questions to include in their README, upon which the user must type in their response. Upon completing the series of questions, their README file will be generated in their folder for their use. 
@@ -26,7 +37,7 @@ To use README generator:
 Example photo of the generated README
 ![2021-11-13 (2)](https://user-images.githubusercontent.com/89744530/141665643-564d1f02-601f-4a2d-997b-8e9ed5e357e5.png)
 
-## Video of Application
+## Video
 
 https://user-images.githubusercontent.com/89744530/141665626-ad13c1ba-4fac-4b6c-8c78-8d5ee5bef6bb.mp4
 
