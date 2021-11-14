@@ -11,11 +11,24 @@ Utilizing Inquirer to interact with the user, when a developer needs to generate
 Required program(s) needed is any common internet browser with Javascript enabled in said browser (most browsers already have them installed and enabled).
 
 ### Execution
-To use README generator, the developer can simply type the command below in their terminal:
-`npm install goodreadme`
+To use README generator:
+1. Download the repo from GitHub
+2. Install Inquirer:
+- `npm install inquirer`
+3. Open Integrated Terminal in index.js file
+4. Type in terminal:
+- `node index.js`
+5. Answer question prompts
+6. Upon completion, README file will be generated
 
 ## Screenshot
 
+Example photo of the generated README
+![2021-11-13 (2)](https://user-images.githubusercontent.com/89744530/141665643-564d1f02-601f-4a2d-997b-8e9ed5e357e5.png)
+
+## Video of Application
+
+https://user-images.githubusercontent.com/89744530/141665626-ad13c1ba-4fac-4b6c-8c78-8d5ee5bef6bb.mp4
 
 ## Help
 Please contact me if there are any issues!
